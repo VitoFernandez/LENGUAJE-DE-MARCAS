@@ -1,0 +1,14 @@
+/*2. Crear los siguientes documentos y responder a las preguntas:
+
+    • Una página web que tenga en la cabecera la siguiente definición de estilos para
+    las etiquetas párrafo: borde verde, color de fondo negro y texto en blanco.
+    Escribir dos párrafos con un pequeño texto dentro. En el segundo se aplicará un
+    estilo en la propia etiqueta poniendo el color del texto rojo. ¿De qué color sale
+    el texto de cada párrafo? ¿Por qué?
+
+    • Agregar una hoja de estilos externa para que el color de texto de los párrafos
+    sea amarillo. ¿De qué color son ahora los textos de los párrafos. ¿Por qué? */
+
+p{
+    color: yellow;
+}
