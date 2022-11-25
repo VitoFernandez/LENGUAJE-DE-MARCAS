@@ -1,0 +1,13 @@
+/*Escribir el código HTML que presente la siguiente estructura de noticias: 
+• Un título <h1>. 
+• Un párrafo con un texto. 
+• Una foto y un pie de foto con <h5>. 
+• Un párrafo con otro texto. 
+• El nombre del periodista que firma el artículo en otro <h5>. */
+
+h1.titulo{
+    color: blue;
+}
+h5.pie{
+    color: red;
+}
