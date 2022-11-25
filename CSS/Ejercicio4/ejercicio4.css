@@ -1,0 +1,15 @@
+p{
+    border-style: double;
+    border-color: black;
+    color: blue;
+    background-color: grey;
+}
+p.pares {
+    border-style: double;
+    border-color: black;
+    background-color: yellow;
+}
+#sexto{
+    font-size: 2em;
+    background-color: yellow;
+}
