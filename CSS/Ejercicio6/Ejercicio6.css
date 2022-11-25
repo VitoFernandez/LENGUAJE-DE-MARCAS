@@ -1,0 +1,22 @@
+/*6. Crear una página web que presente tres capas. Aplicar los estilos necesarios en las 
+etiquetas para que se cumplan las siguientes especificaciones: 
+• La primera capa debe tener una anchura de la mitad de la página, un borde negro 
+y el texto al 100% del tamaño de la letra M estándar que esté establecida. 
+• La segunda capa debe tener una anchura de un tercio de la página, un borde rojo 
+y el texto un 20% más grande que el tamaño de la letra m establecido por 
+defecto. 
+• La tercera capa debe tener un cuarto de la anchura de la página, un borde azul y 
+el texto un 20% más pequeño que el tamaño de la letra M establecido por 
+defecto*/
+#primera{
+    width: 50%;
+    border-style: dashed;
+    border-color: black;
+    font-size: 100%;
+}
+#segunda{
+
+}
+#tercera{
+
+}
