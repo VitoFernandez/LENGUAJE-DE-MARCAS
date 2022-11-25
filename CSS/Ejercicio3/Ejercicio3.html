@@ -1,0 +1,63 @@
+<!--3. Crear los siguientes documentos y analizar los resultados:
+
+    • Una hoja de estilos para que aparezca en rojo el texto de todos los elementos
+    destacados que se encuentren dentro de una etiqueta <div>.
+
+    • Una web, que enlace la hoja de estilos anterior, formada por tres textos
+    destacados, el primero dentro de un párrafo, el segundo dentro de un <div> y el
+    tercero dentro de un párrafo que a su vez está contenido en un <div>.
+
+    • Añadir a la hoja de estilos una regla para que todos los elementos destacados
+    que se encuentren dentro de un párrafo tengan el color de texto azul.
+
+    • Añadir a la web un texto destacado dentro de un <div> que, a su vez, esté dentro
+    de un párrafo.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="Ejercicio3.css">
+</head>
+
+<body>
+    <div>
+        <em>hola mundo</em>
+    </div>
+    
+    <em>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, ab optio exercitationem sit, tenetur nemo
+            voluptatibus quaerat harum eum sunt quos minus cumque assumenda! Aliquid rerum totam ipsam pariatur
+            exercitationem!
+        </p>
+    </em>
+
+    <em>
+        <div>
+            hola que tal
+        </div>
+    </em>
+
+    <em>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, ab optio exercitationem sit, tenetur nemo
+                voluptatibus quaerat harum eum sunt quos minus cumque assumenda! Aliquid rerum totam ipsam pariatur
+                exercitationem!
+            </p>
+        </div>
+    </em>
+
+    <div>
+        <p>
+            <em>
+                texto destacado dentro de un párrafo y dentro de un div.
+            </em>
+        </p>
+    </div>
+</body>
+
+</html>

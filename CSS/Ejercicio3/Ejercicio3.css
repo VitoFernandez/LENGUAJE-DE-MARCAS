@@ -1,0 +1,21 @@
+/*3. Crear los siguientes documentos y analizar los resultados:
+
+    • Una hoja de estilos para que aparezca en rojo el texto de todos los elementos
+    destacados que se encuentren dentro de una etiqueta <div>.
+
+    • Una web, que enlace la hoja de estilos anterior, formada por tres textos
+    destacados, el primero dentro de un párrafo, el segundo dentro de un <div> y el
+    tercero dentro de un párrafo que a su vez está contenido en un <div>.
+
+    • Añadir a la hoja de estilos una regla para que todos los elementos destacados
+    que se encuentren dentro de un párrafo tengan el color de texto azul.
+
+    • Añadir a la web un texto destacado dentro de un <div> que, a su vez, esté dentro
+    de un párrafo. */
+    
+    div em {
+        color: red;
+    }
+    em p{
+        color: blue;
+    }
