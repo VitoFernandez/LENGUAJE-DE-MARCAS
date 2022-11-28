@@ -1,0 +1,45 @@
+#cabecera{
+    padding: 2em;
+    margin-top: 1em;
+    padding: 1em;
+    border-style: double;
+    height: 200px;
+    background-color: yellow;
+}
+#titulo{
+    border-style: double;
+    padding: 1em;
+    float: left;
+}
+#foto{
+    padding-top: 4em;
+    float: right;
+}
+#c1{
+    height: 200px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-style: dashed;
+    float: left;
+    background-color: brown;
+    width: 70%;
+}
+#c2{
+    height: 200px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-style: dashed;
+    float: right;
+    background-color: aqua;
+    width: 23%;
+}
+footer{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-style: dashed;
+    clear: both;
+    background-color: chocolate;
+}
