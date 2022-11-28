@@ -15,8 +15,14 @@ defecto*/
     font-size: 100%;
 }
 #segunda{
-
+    width: 33%;
+    border-style: dashed;
+    border-color: red;
+    font-size: 1.2em;
 }
 #tercera{
-
+    width: 25%;
+    border-style: dashed;
+    border-color: blue;
+    font-size: 0.8em;
 }

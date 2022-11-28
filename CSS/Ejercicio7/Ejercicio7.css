@@ -1,0 +1,24 @@
+#uno{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    
+}
+#dos{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    
+}
+#tres{
+    height: 50%;
+    width: 50%;
+    background-color: gray;
+    
+}
+#cuatro{
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+   
+}
