@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+
+#uno {
+    padding: 0px;
+    margin: 0px;
+    border-style:dashed;
+
+    background-color: blue;
+}
+
+#dos {
+    padding: 5px;
+    margin: 5px;
+    border-style:dashed ;
+    background-color: yellow;
+}
+
+#tres {
+    padding: 20px;
+    margin: 0px;
+    border-style:dashed;
+    background-color: aqua;
+}
