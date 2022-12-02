@@ -1,0 +1,41 @@
+p.uno {
+    width: 50%;
+    text-indent: 50px;
+    line-height: 25px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.uno:first-letter {
+    text-transform: uppercase;
+}
+
+p.dos {
+    text-indent: 10px;
+    line-height: 40px;
+    text-align: left;
+    font-style: unset;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+p.dos:first-letter {
+    text-transform: uppercase;
+}
+
+p.tres {
+
+    text-indent: 10px;
+    line-height: 60px;
+    text-align: right;
+    font-style: unset;
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.tres:first-letter {
+    text-transform: uppercase;
+}
