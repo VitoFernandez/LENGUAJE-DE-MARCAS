@@ -1,0 +1,64 @@
+#contenedora{
+margin: 1em;
+
+}
+
+.cabecera {
+    border-style: double;
+    padding: 1em;
+    font-size: 2em;
+    background-color: beige;
+    margin-bottom: 1em;
+
+}
+#sergioRamos{
+    float: left;
+    margin: 1em;
+    width: 500px;
+}
+#lewandoski{
+    width: 500px;
+    float: right;
+    margin: 1em;
+}
+#gavi{
+
+    float: left;
+    margin: 1em;
+}
+#sergio{
+    width: 400px;
+    float: right;
+    margin: 1em;
+}
+
+.menuLateral {
+    padding: 1em;
+    border-style: double;
+    background-color: cornflowerblue;
+    width: 20%;
+    float: left;
+    margin-right: 1em;
+   
+}
+
+ul {
+    list-style: none;
+    padding: 1em;
+}
+
+li {
+    padding: 1em;
+    border-style: double;
+    margin: 1em;
+
+}
+
+.noticia {
+    margin-left: 1em;
+    padding: 1em;
+    background-color: gray;
+    border-style: double;
+    width: 74%;
+    float: right;
+}
