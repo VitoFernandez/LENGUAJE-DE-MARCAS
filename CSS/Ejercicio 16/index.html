@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telebirria</title>
+    <link rel="stylesheet" href="Ejercicio16.css">
+</head>
+<header>
+    <h1>TELEBIRRIA</h1>
+    <h2>PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</h2>
+</header>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Datos personales y de envío</legend>
+            <br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="escribe tu nombre">
+            <br>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="escribe tus apellidos">
+            <br>
+            <br>
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" id="domicilio" name="domicilio" placeholder="escribe tu dirección">
+            <br>
+            <br>
+            <label for="localidad">Localidad:</label>
+            <input type="text" id="localidad" name="localidad" placeholder="escribe tu localidad">
+            <br>
+            <br>
+            <label for="Código Postal">Código Postal:</label>
+            <input type="text" id="Código Postal" name="Código Postal" placeholder="escribe el Código Postal">
+            <br>
+            <br>
+            <label for="teléfono">Teléfono:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="escribe un número de tlf">
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Elija la opción de entrega</legend>
+            <label for="recoger">Recoger a domicilio</label><br>
+            <input input="no" type="radio" id="recoger" name="nombre">
+            <label for="si">si</label><br>
+            <input input="si" type="radio" id="recoger" name="nombre">
+            <label for="no">no</label><br><br>
+            <label for="porque">Notas para el envio:</label><br>
+            <textarea id="porque" cols="50" rows="4">	</textarea>
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Elija el menú</legend>
+            <label for="tamaño_del_menu">Tamaño del menú:</label><br>
+            <select id="tamaño_del_menu" size="4">
+                <option value="Pequeño">Pequeño</option>
+                <option value="Grande" selected="selected">Grande</option>
+                <option value="XL">XL</option>
+                <option value="SuperGordo">Super Gordo</option>
+            </select>
+            <br>
+            <br>
+            <label for="contenido_del_bocadillo">Contenido del bocadillo:</label><br>
+            <select id="contenido_del_bocadillo" size="4">
+                <option value="York">York</option>
+                <option value="Bacon" Selected="selected">Bacon</option>
+                <option value="Campero">Campero</option>
+                <option value="Serranito">Serranito </option>
+            </select>
+            <br>
+            <label for="sugerencias">Puede añadir alguna sugerencias:</label><br>
+            <textarea name="sugerencias" id="sugerencias" cols="30" rows="10"></textarea>
+        </fieldset>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
