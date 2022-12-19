@@ -1,0 +1,11 @@
+#articulo img{float:left; width: 300px;}
+#articulo {width: 600px;}
+#descripcion{float:right; width: 300px;}
+#nombre{float: right;}
+#precio{float: right;}
+#colores li{margin: 10px; display: inline-block; width: 20px; height: 20px;border-radius: 12px; float: right;}
+#rojo{background-color: red;}
+#blanco{background-color: whitesmoke;}
+#negro{background-color: black;}
+#azul{background-color: blue;}
+#amarillo{background-color: yellow;}

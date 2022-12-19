@@ -1,3 +1,24 @@
 body{
     background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cabecera{
+    font-size: 4em;
+}
+#cabeceraH2{
+    color: gray;
+}
+#datosUsuario{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu{
+    width: 50%;
+    float: right;
+    height:max-content;
+}
+#col1{
+    
+    width: 50%;
+    float: left;
 }
